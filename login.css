@@ -1,0 +1,168 @@
+:root {
+    --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9b1cc4b3-40f2-4bfa-9006-28f7a0aedb45/0d37e095-c743-417b-9c38-ce4008cb6e2b/BR-en-20210513-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.backgroundShadow {
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E50914;
+    
+}
+
+.formContainerContent {
+
+    display: flex;
+    align-items: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 40px 68px 60px 68px;
+}
+
+.image {
+    margin-left: 60px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+input[type=email], input[type=password] {
+    width: 280px;
+    border-radius: 5px;
+    height: 34px;
+    background-color: #333;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 8px 0px 8px 20px;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+input[type=checkbox] {
+    height: 18px;
+    margin: 0px 5px 0px 0px;
+}
+
+.signInButton {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #E50914;
+    border: 1px solid #4d4d4d;
+    color: #FFFFFF;
+    margin: 20px 0px 5px 0px;
+    height: 50px;
+    font-family: var(--font);
+}
+
+label {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: var(--font);
+    margin: 0px 0px 28px 0px;
+}
+
+.helpLogin {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-family: var(--font);
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.helpLoginCheckBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.helpLogin a, .helpLogin p {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--font);
+    color: #b3b3b3
+}
+
+.helpLogin a :hover {
+    text-decoration: underline;
+}
+
+.otherLoginContainer {
+    margin-top: 30px;
+}
+
+.fbLogin {
+    font-family: var(--font);
+    font-size: 13px;
+    color: #737373;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.fbLogin img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 1px;
+}
+
+.signUpContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-top: -10px;
+}
+
+.signUpContainer p {
+    font-family: var(--font);
+    font-size: 16px;
+    color: #737373;
+    margin-right: 5px;
+}
+
+.signUpContainer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--font);
+}
+
+.recaptcha-terms {
+    font-family: var(--font);
+    font-size: 13px;
+    color: #8c8c8c
+}
+
+.recaptcha-terms-button {
+    color: #0071EB;
+    background-color: transparent;
+    border: none;
+}
